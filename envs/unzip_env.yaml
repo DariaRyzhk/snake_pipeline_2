@@ -1,0 +1,6 @@
+name: unzip_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - gzip

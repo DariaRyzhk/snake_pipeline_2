@@ -1,0 +1,7 @@
+name: genome_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - wget
