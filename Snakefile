@@ -68,7 +68,7 @@ rule run_blast:
         blastn -db results/my_blast_db -query {input.query} -out {output} -outfmt 6
         """
 
-# rule filter_blast_results: фильтрует результаты BLAST, оставляя только те, которые имеют 100% идентичность и правильную длину
+# rule filter_blast_results: фильтрует результаты BLAST, оставляя только те, которые имеют 100% идентичность
 rule filter_blast_results:
     input:
         "results/blast_results_RefSeq.txt"
